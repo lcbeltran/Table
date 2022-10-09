@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Challange</title>
+</head>
+<body>
+    <table border="3" cellpadding="10">
+        <thead>
+            <th>Qty</th>
+            <th>Item</th>
+            <th>Initial Cost</th>
+            <th>Final Cost</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>10</td>
+                <td>Apple</td>
+                <td>$1.00</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td colspan="4">subtotal</td>
+            </tr>
+            <tr>
+                <td colspan="4">subtotat <i>10%</i> VAT</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>
+        <form action="">
+            <label for="bNum">Batch Number:</label>
+            <select name="bNum" id="bNum">
+                <option value="sel">Select</option>
+                <option value="b1">Batch1</option>
+                <option value="b2">Batch2</option>
+            </select>
+        </form>
+    </p>
+    <p>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Juan" required>
+    </p>
+
+    <p>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Dela Cruz" required>
+    <p>
+        <label for="emailAdd">Email Address:</label>
+        <input type="email" id="emailAdd" name="emailAdd" placeholder="juan.delacruz.com" required>
+    </p>
+
+</body>
+</html>

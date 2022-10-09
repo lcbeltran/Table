@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <div style="font-family: sans-serif;">
+        <h1>Sample Form</h1>
+        <form action="">
+            <p>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname">
+            </p>
+
+            <p>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname">
+            </p>
+            
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </p>
+        </form>
+    </div>
+
+    <div style="font-family: sans-serif;">
+        <h1>Survey Form</h1>
+        <form action="">
+            <p>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname">
+            </p>
+
+            <p>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname">
+            </p>
+
+            <p>
+                <label for="emailAdd">Email Address:</label>
+                <input type="email" id="emailAdd" name="emailAdd">
+            </p>
+
+            <p>
+                <label for="bNum">Batch Number:</label>
+                <select name="bNum" id="bNum">
+                    <option value="sel">Select</option>
+                    <option value="b1">Batch1</option>
+                    <option value="b2">Batch2</option>
+                </select>
+            </p>
+            
+            <p>
+                <label for="instructor">instructor:</label>
+                <input type="text" id="instructor" name="instructor">
+            </p>
+
+            <p>
+                <label for="comments">Comments for your Instuctor:</label>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Type full comments here"></textarea>
+            </p>
+            
+            <p aligh>
+                <input type="radio" name="eType" id="eType">
+                <label for="eType">Onsite</label>
+                <input type="radio" name="eType" id="eType">
+                <label for="eType">Online</label>
+            </p>
+            
+                What do you like about our boot camp
+            <p>
+                <input type="checkbox" name="cRoom" id="cRoom" value="cRoom">
+                <label for="cRoom">Classroom Experience</label>
+                <br />
+                <input type="checkbox" name="expertise" id="expertise" value="expertise">
+                <label for="Expertise">Instructor Expertise</label>
+                <br />
+                <input type="checkbox" name="collab" id="collab" value="collab">
+                <label for="Expertise">Classroom Collaboration</label>
+                <br />
+                <input type="checkbox" name="others" id="others" value="others">
+                <label for="others">Others:</label>
+                <input type="text" id="others" name="others" placeholder="Please specify">
+            </p>
+            
+            <p>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
